@@ -30,7 +30,7 @@ const port = 3000;
 
 const corsOptions = {
 
-	origin: ['http://zuitt-bootcamp-prod-521-8525-pontanar.s3-website.us-east-1.amazonaws.com', 'http://zuitt-bootcamp-prod-521-8462-grepo.s3-website.us-east-1.amazonaws.com', 'http://localhost:3000'],
+	origin: ['http://localhost:3000', 'https://augustinegrepo-ecommercefullstack.vercel.app' ],
 	credentials: true,
 	optionsSuccessStatus: 200
 }
